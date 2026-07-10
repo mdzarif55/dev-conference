@@ -77,51 +77,161 @@ nav a {
     color: #8f8d8d;
 }
 
-.speakers{
+.speakers {
     width: 90%;
     margin: 80px auto;
 }
 
-.speakers h2{
+.speakers h2 {
     text-align: center;
     font-size: 48px;
     margin-bottom: 50px;
 }
 
-.speaker-container{
+.speaker-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
-.speaker-card{
+.speaker-card {
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.speaker-card img{
+.speaker-card img {
     width: 100%;
     height: 320px;
     object-fit: cover;
     display: block;
 }
 
-.speaker-info{
+.speaker-info {
     padding: 20px;
 }
 
-.speaker-info h5{
+.speaker-info h5 {
     color: royalblue;
     font-size: 12px;
     margin-bottom: 10px;
 }
 
-.speaker-info h3{
+.speaker-info h3 {
     font-size: 28px;
     margin-bottom: 10px;
 }
 
-.speaker-info p{
+.speaker-info p {
     color: gray;
+}
+
+/* Pricing Section */
+
+.pricing {
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.price-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+}
+
+.price-card h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.plan {
+    font-size: 13px;
+    color: gray;
+    font-weight: bold;
+}
+
+.people {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.price-card ul {
+    margin: 20px 0;
+    padding-left: 18px;
+}
+
+.price-card li {
+    margin-bottom: 12px;
+    color: #555;
+}
+
+.price-card button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid royalblue;
+    border-radius: 6px;
+    background: white;
+    color: royalblue;
+    cursor: pointer;
+}
+
+/* Middle Card */
+
+.active {
+    background: #0f172a;
+    color: white;
+}
+
+.active li,
+.active .people,
+.active .plan {
+    color: #d1d5db;
+}
+
+.active button {
+    background: #2563eb;
+    color: white;
+    border: none;
+}
+
+/* AI Section */
+
+.missing {
+    width: 90%;
+    margin: 100px auto;
+    border: 2px dashed #8b5cf6;
+    border-radius: 10px;
+    background: #f3e8ff;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.missing h2 {
+    font-size: 50px;
+    color: #7c3aed;
+    margin-bottom: 15px;
+}
+
+.missing p {
+    font-size: 28px;
+    color: #8b5cf6;
+    font-weight: 600;
 }
