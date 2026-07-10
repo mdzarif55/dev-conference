@@ -235,3 +235,160 @@ nav a {
     color: #8b5cf6;
     font-weight: 600;
 }
+
+.faq{
+    width:80%;
+    margin:100px auto;
+}
+
+.faq h2{
+    text-align:center;
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.faq-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:50px;
+}
+
+.faq details{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    margin-bottom:18px;
+    padding:0 25px;
+    transition:.3s;
+}
+
+.faq details:hover{
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.faq summary{
+    list-style:none;
+    cursor:pointer;
+    padding:22px 0;
+    font-size:18px;
+    font-weight:600;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.faq summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq summary::after{
+    content:"+";
+    font-size:28px;
+    color:#4f46e5;
+    transition:.3s;
+}
+
+.faq details[open] summary::after{
+    content:"−";
+}
+
+.faq details p{
+    color:#666;
+    line-height:1.8;
+    padding-bottom:20px;
+}
+
+
+.sponsors{
+    width:90%;
+    margin:100px auto;
+    text-align:center;
+}
+
+.sponsors h2{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.sponsors p{
+    color:#666;
+    margin-bottom:50px;
+}
+
+.sponsor-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.sponsor-card{
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:35px;
+    transition:0.3s;
+}
+
+.sponsor-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+.sponsor-card img{
+    width:70px;
+    height:70px;
+    margin-bottom:20px;
+}
+
+.sponsor-card h3{
+    font-size:22px;
+}
+
+/* footer */
+
+
+
+.footer {
+    background: #111827;
+    padding: 30px 80px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #9ca3af;
+    font-size: 20px;
+
+}
+
+.social-icons a:hover {
+    color: #2563eb;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: white;
+}
