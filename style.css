@@ -212,29 +212,6 @@ nav a {
     border: none;
 }
 
-/* AI Section */
-
-.missing {
-    width: 90%;
-    margin: 100px auto;
-    border: 2px dashed #8b5cf6;
-    border-radius: 10px;
-    background: #f3e8ff;
-    text-align: center;
-    padding: 120px 20px;
-}
-
-.missing h2 {
-    font-size: 50px;
-    color: #7c3aed;
-    margin-bottom: 15px;
-}
-
-.missing p {
-    font-size: 28px;
-    color: #8b5cf6;
-    font-weight: 600;
-}
 
 .faq{
     width:80%;
