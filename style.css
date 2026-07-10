@@ -369,3 +369,208 @@ nav a {
 .footer-links a:hover {
     color: white;
 }
+
+
+/* ===========================
+   RESPONSIVE DESIGN
+=========================== */
+
+/* Tablets (992px and below) */
+@media (max-width: 992px){
+
+    nav{
+        padding:20px 30px;
+    }
+
+    nav ul{
+        gap:20px;
+    }
+
+    .hero-content{
+        width:90%;
+    }
+
+    .hero-content h1{
+        font-size:48px;
+    }
+
+    .hero-content p{
+        font-size:18px;
+    }
+
+    .speaker-container{
+        grid-template-columns:1fr;
+    }
+
+    .pricing-container{
+        grid-template-columns:1fr;
+    }
+
+    .sponsor-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .footer-content{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+
+    .footer-links{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+}
+
+
+/* Mobile (768px and below) */
+
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .pri-btn{
+        width:100%;
+        max-width:220px;
+    }
+
+    .hero-container{
+        height:70vh;
+    }
+
+    .hero-content{
+        width:90%;
+        top:50%;
+    }
+
+    .hero-content h1{
+        font-size:36px;
+    }
+
+    .hero-content p{
+        font-size:16px;
+    }
+
+    .speakers,
+    .pricing,
+    .faq,
+    .sponsors{
+        width:95%;
+    }
+
+    .speakers h2,
+    .pricing h2,
+    .faq h2,
+    .sponsors h2{
+        font-size:34px;
+    }
+
+    .speaker-container,
+    .pricing-container,
+    .sponsor-container{
+        grid-template-columns:1fr;
+    }
+
+    .speaker-card img{
+        height:250px;
+    }
+
+    .price-card h1{
+        font-size:40px;
+    }
+
+    .faq summary{
+        font-size:16px;
+    }
+
+    .footer{
+        padding:30px 20px;
+    }
+
+    .footer-content{
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+    }
+
+    .social-icons{
+        justify-content:center;
+    }
+
+    .footer-links{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+}
+
+
+/* Small phones (480px and below) */
+
+@media (max-width:480px){
+
+    nav img{
+        width:150px;
+    }
+
+    .hero-container{
+        height:60vh;
+    }
+
+    .hero-content h1{
+        font-size:28px;
+    }
+
+    .hero-content p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    .speakers h2,
+    .pricing h2,
+    .faq h2,
+    .sponsors h2{
+        font-size:28px;
+    }
+
+    .speaker-info h3{
+        font-size:22px;
+    }
+
+    .price-card h1{
+        font-size:34px;
+    }
+
+    .sponsor-card{
+        padding:25px;
+    }
+
+    .sponsor-card img{
+        width:55px;
+        height:55px;
+    }
+
+    .faq{
+        width:92%;
+    }
+
+    .faq summary{
+        font-size:15px;
+    }
+
+    .faq details{
+        padding:0 15px;
+    }
+
+}
